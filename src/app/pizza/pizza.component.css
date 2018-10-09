@@ -1,12 +1,11 @@
 img {
+  width: 100%;
+}
 
-    width: 100%;
+h2 {
+  font-size: 4rem;
 }
 
 p {
-    font-size: 3rem;
-}
-
-h {
-    font-size: 3rem;
+  font-size: 3rem;
 }

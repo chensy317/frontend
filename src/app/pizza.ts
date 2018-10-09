@@ -1,6 +1,6 @@
-export class Pizza {
-    id: number
-    name: String
-    price: number
-    url: string
+export interface Pizza {
+  id: number
+  name: string
+  price: number
+  url: string
 }

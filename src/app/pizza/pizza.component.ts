@@ -8,13 +8,10 @@ import { Pizza } from '../pizza';
 })
 export class PizzaComponent implements OnInit {
 
-@Input() pizza: Pizza 
-  
+  @Input() pizza: Pizza
 
   constructor() { }
 
   ngOnInit() {
   }
-
-
 }
