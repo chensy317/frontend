@@ -1,0 +1,9 @@
+<div class="shadow-lg p-3 mb-5 bg-white rounded">
+  <div class="col-8">
+    <h2>{{pizza.name | titlecase}}</h2>
+    <p>{{pizza.price}}</p>
+  </div>
+  <div class="col">
+    <img [src]="pizza.url" width="100%">
+  </div>
+</div>
