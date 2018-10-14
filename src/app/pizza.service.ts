@@ -8,7 +8,7 @@ import { Pizza } from './pizza';
 })
 export class PizzaService {
 
-  URL = "https://pizzaschensy.herokuapp.com"
+  URL = "https://lpa2sgadot.herokuapp.com"
 
   constructor(private httpclient: HttpClient) { }
 
