@@ -5,8 +5,7 @@ import {PizzadetailComponent} from './pizzadetail/pizzadetail.component';
 import {PizzaListComponent} from './pizza-list/pizza-list.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/pizza', pathMatch: 'full'},
-  {path: 'pizza', component: PizzaListComponent},
+  {path: '', component: PizzaListComponent},
   {path: 'pizza/:id', component: PizzadetailComponent}
 ];
 
